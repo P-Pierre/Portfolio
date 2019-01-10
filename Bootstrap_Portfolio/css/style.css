@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-font-weight: 300;
+	font-weight: 300;
     letter-spacing: 0.4px;
     font-family: "Open Sans", Sans-serif;
     color: #232323;
@@ -244,7 +244,7 @@ header .intro-text .intro-heading {
     font-size: 15px;
     font-weight: 300;
     line-height: 25px;
-    margin: 20px 100px 60px 100px;
+    margin: 20px 100px 20px 100px;
 }
 
 /*--------------------
@@ -457,6 +457,16 @@ figure.effect-bubba:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+
+
+body .modal-content{
+  width: 230%!important;
+  margin-left: -65%!important;
+}
+body .modal-header{
+  text-align: center;
+}
+
 
 /*--------------------
 4.4. Dark Short section (counters, quote, etc)
@@ -767,4 +777,12 @@ and (max-width : 480px) {
     margin-top: 7px;
     font-size: 20px;
 }
+}
+/*------------------------
+  !!!!! Mes Ajouts !!!!!
+------------------------*/
+
+.vertical-align {
+    display: flex;
+    align-items: center;
 }
