@@ -51,6 +51,7 @@ h6 {
     letter-spacing: 0.4px;
     font-family: "Open Sans", Sans-serif;
     color: #232323;
+	/*color: #232323;*/
 }
 
 p {
@@ -59,7 +60,8 @@ p {
     font-weight: 300;
 	line-height: 23px;
     letter-spacing: 0.2px;
-    color: #797979;
+    color: #020202;
+	/* color: #797979;*/
 }
 
 a:hover, a:focus, a:active, a.active {
@@ -81,7 +83,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 section {
-    padding: 70px 0;
+    padding: 20px 0;
 }
 
 /*--------------------
@@ -170,7 +172,7 @@ section {
 --------------------*/
 
 header {
-    background-image: url(../images/IOT_bg.jpg);
+    background-image: url(../images/IOT_bg1.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -179,8 +181,9 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    color: #fff;
-	text-shadow: 2px 2px #000
+    color: #FFF;
+	/*	text-shadow: 2px 2px #000;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 header .intro-text {
@@ -201,6 +204,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 @media (min-width: 768px) {
@@ -210,6 +214,7 @@ header .intro-text .intro-lead-in {
 	    font-size: 40px;
 	    line-height: 40px;
 	    margin-bottom: 25px;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}
 }
 
@@ -219,6 +224,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     line-height: 50px;
     margin-bottom: 25px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 @media (min-width: 768px) {
@@ -228,6 +234,7 @@ header .intro-text .intro-heading {
 	    font-size: 75px;
 	    line-height: 75px;
 	    margin-bottom: 50px;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}
 }
 
@@ -264,7 +271,8 @@ header .intro-text .intro-heading {
 font-size: 14px;
     font-weight: 300;
     line-height: 22px;
-    color: #969696;
+    color: #020202;
+	/*color: #969696;*/
 }
 
 .ot-circle {
@@ -458,11 +466,11 @@ figure.effect-bubba:hover p {
 	transform: translate3d(0,0,0);
 }
 
-
-body .modal-content{
+/*----------------------*/
+/*body .modal-content{
   width: 230%!important;
   margin-left: -65%!important;
-}
+}*/
 body .modal-header{
   text-align: center;
 }
@@ -616,7 +624,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 --------------------*/
 
 footer {
-    padding: 30px;
+    padding: 10px;
     background-color: #000;    
 }
 
@@ -665,7 +673,7 @@ footer p a span {
 }
 
 .modal-works {
-font-size: 11px;
+	font-size: 11px;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 500;
@@ -785,4 +793,83 @@ and (max-width : 480px) {
 .vertical-align {
     display: flex;
     align-items: center;
+}
+/*.vertical-align {
+    display: flex;
+    align-items: center;
+}*/
+body .btn-test{
+	margin-bottom: 10px;
+}
+
+body .container-space{
+	margin-bottom: 20px;
+}
+
+body .container-test
+{
+   /*width: 940px;*/
+	width: 80%;
+   	margin-right: auto;
+  	margin-left: auto;
+ 
+}
+
+.table {
+    border-radius: 5px;
+    width: 100%;
+    margin: 0px auto;
+    float: none;
+}
+body .img-myrounded{
+	border-radius:60px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.btntest {
+    display: inline-block;
+    padding: 3px 6px 3px 6px;
+    margin: 1px 1px 1px 1px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 6px 6px 6px 6px;
+	color: #fff;
+}
+
+.btnmrg {
+    margin: 1px 1px 1px 1px;
+	width:100%;
+}
+
+.btntest:hover, .btntest:focus, .btntest:active, .btntest.active, .open .dropdown-toggle.btntest {
+    color: #fff;
+    background-color: #fec503;
+    border-color: #f6bf01;
+}
+
+skill-tag {
+    display: inline-block;
+    height: 25px;
+    color: #fff;
+    padding: 0 5px;
+    margin: 2px;
+	border-radius: .25rem!important;
+}
+.tabletest{
+	margin-top: 40px;
+	font-size: 16px;
 }
