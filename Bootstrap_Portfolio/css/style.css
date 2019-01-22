@@ -670,7 +670,7 @@ footer p a span {
 }
 
 .modal-body p {
-	margin: 30px 20px;
+	margin: 20px 30px 10px 30px;
 	color: #2D2D2D;		
 }
 
@@ -680,13 +680,13 @@ footer p a span {
     text-transform: uppercase;
     font-weight: 500;
     color: #fff;
-    margin: 25px 20px;
+    margin: 25px 20px 25px 20px ;
 }
 
 .modal-works span {
 	background-color: #FED136;
     margin-right: 15px;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 10px;
 }
 
 /*--------------------
@@ -880,3 +880,48 @@ skill-tag {
 .nav-hand{
 	cursor: pointer;
 }
+body .ptest{
+	margin-top: 10px;
+}
+
+.modal-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body .dltest {
+	margin: 30px 20px;
+	color: #2D2D2D;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body h1,
+h2,
+h3,
+h5,
+h6 {
+	margin: 20px 20px 20px 20px;	
+}
+
+.modal-body 
+h4
+{
+	margin: 20px 30px 20px 30px;	
+}
+.modal-body dl {
+	margin: 10px 30px 10px 30px;
+}
+.modal-body dd {
+	margin: 10px 35px 10px 35px;
+}
+body .modal-btn{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
